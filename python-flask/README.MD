@@ -1,0 +1,11 @@
+
+## plugins
+$ pip freeze
+Successfully installed Jinja2-2.10 MarkupSafe-1.0 Werkzeug-0.14.1 click-6.7 flask-1.0.2 itsdangerous-0.24
+
+## install
+```
+$ pip install Flask
+$ python hello.py
+```
+http://localhost:5000/
