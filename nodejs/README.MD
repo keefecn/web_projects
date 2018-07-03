@@ -8,5 +8,10 @@
 # 运行
 node server.js
 Server running at http://127.0.0.1:8888/
+* 验证1：http://127.0.0.1:8888/ （网页打开）
+* 验证2：curl -I 'http://127.0.0.1:8888/'
 
-http://127.0.0.1:8888/
+# 程序简介
+* http-server.js  支持 https协议，需要CA证书
+* server.js 常规的http协议
+* http-client.js 一个https劫持CA证书的例子
