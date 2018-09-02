@@ -10,11 +10,12 @@
 * flask：轻量级WEB框架，仅6000行。
 
 ## ruby
-
+* ruby-on-rails: 
 
 ## node.js
+* node.js
 
-
+---
 # HTTPS配置
 .keys：存放自签名证书
 * 证书生成: source get_https_ca.sh
