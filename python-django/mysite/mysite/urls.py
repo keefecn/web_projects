@@ -18,6 +18,7 @@ from django.contrib import admin
 from cmdb import views   # add by keefe, 2018/6/24
  
 urlpatterns = [
-    #url(r'^admin/', admin.site.urls),
+    url(r'^admin/', admin.site.urls),
+    url(r'^test', views.test),
     url(r'^index/', views.index),
 ]

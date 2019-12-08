@@ -8,6 +8,7 @@ from django.shortcuts import render
 from django.shortcuts import render
 #首先导入HttpResponse模块
 from django.shortcuts import HttpResponse
+
 # Create your views here.
 def index(request):
     """
@@ -15,3 +16,10 @@ def index(request):
     :return: 不能直接返回字符串，必须有HttpResponse这个类封装起来，这是Django的规则
     """
     return HttpResponse("Hello Django!")
+
+def test(request):
+    """
+    :param request: 
+    :return: 
+    """
+    return HttpResponse("This is test!")
