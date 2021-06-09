@@ -26,11 +26,13 @@ mysite/
 
 ### startapp 创建APP
 在每个Django项目中可以包含多个APP，相当于一个大型项目中的分系统、子模块、功能部件等等，相互之间比较独立，但也有联系，所有的APP共享项目资源。
+每一个APP是单独提供端口的微服务
+
 ```sh
 # app名是cmdb
 $ python manage.py startapp cmdb
 $ find cmd
-cmdb/
+cmdb/   #  一个app
 ├── admin.py      
 ├── apps.py       
 ├── __init__.py

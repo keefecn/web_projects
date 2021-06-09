@@ -1,30 +1,34 @@
+# vue-demo
 
-## 简介
-vue项目样例
+> A Vue.js project
+以下几个目录和文件不需保存
+* node-modules: 调用 npm install时自动产生
+* package-lock.json:  调用 npm run dev时自动产生
+* build: 调用 npm run build时自动产生
 
-## install
-安装
-```sh
-$ npm install -g cnpm --registry=https://registry.npm.taobao.org
-$ cnpm install -g @vue/cli  # Vue CLI 的包名称由 vue-cli 改成了 @vue/cli
-$ cnpm install -g @vue/cli-init
-$ vue --version
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
 ```
 
-创建工程
-```SH
-$ vue init webpack-simple 工程名字<工程名字不能用中文>
-# 或者创建 vue1.0 的项目
-$ vue init webpack-simple#1.0 工程名字<工程名字不能用中文>
-```
-
-## 启动
-```sh
-# 单进程启动
-$ python hello.py
-```
-访问地址：http://127.0.0.1:5000
-
-
-## 参考 
-https://cli.vuejs.org/zh/guide/creating-a-project.html
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
