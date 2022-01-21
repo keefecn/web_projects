@@ -1,5 +1,6 @@
 
 ## intro
+* demo:  `flask fab create-app` 快速生成flask框架项目,依赖模块 flask_appbuilder
 * rest_api-demo-master 来自于 https://github.com/postrational/rest_api_demo
 * swagger-demo: swagger示例，2种实现方法flasgger和 restplus
 * flask_main.py 一个falsk api的极简示例
